@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Space</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <a href="index.html" class="site-logo">The Woodshop</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="menu.html">Menu</Menu></a></li>
+                <li><a href="Location.html">Location</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main class="site-main">
+        <h1 class="page-titles">Let's Connect</h1>
+
+        <p class="normal-text">
+            Fill out the form below to put an inquiry for the space and we will reach out to you within 24 hours.
+        </p>
+
+
+        <form class="contact-form" action="/submit" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <label for="user-email">Email</label>
+            <input type="email" id="user-email" name="user-email" placeholder="Enter your email" required>
+            <label for="comments">Message/Inquiry:</label>
+            <textarea id="comments" name="comments" placeholder="Tell us about your event" rows="4" cols="50"></textarea>
+            <input type="submit" value="Submit" required minlength="6">
+        </form>
+
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 Event Center. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
